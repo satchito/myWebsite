@@ -1,0 +1,183 @@
+
+
+body {
+  width: 90%;
+  margin: 2rem auto;
+}
+
+#ms_button_bar {
+  text-align:center;
+  height: 60px;
+  width: 100%;
+  margin-top: 10px;
+}
+
+#ms_button_bar .ms_btn {
+  text-decoration: none;
+  display: inline-block;
+  color: black;
+  font-family: 'Lato', sans-serif;
+  font-size: 1rem;
+  font-style: normal;
+  margin: 10px 2px;
+  padding: 0px 30px 0px 30px;
+  line-height: 40%;
+}
+
+.ms_btn:hover {
+  background-color:black;
+  transition: .25s;
+}
+
+
+.ms_btn:hover p {
+  color: white;
+  transition: .25s;
+}
+
+.vertical_divider {
+  width: 1px;
+  height: 30px;
+  vertical-align: middle;
+  background-color: grey;
+  margin: 0 2px;
+  display: inline-block;
+}
+
+
+#ms_logo_block {
+  width: 100%;
+  height: 80px;
+}
+
+#ms_logo_container {
+  width: 80px;
+  height: 80px;
+  display: block;
+  margin: auto;
+}
+
+
+#ms_logo_main {
+  width: 50px;
+  height: 50px;
+  display: block;
+  margin: auto;
+}
+
+#ms_name_text {
+  text-decoration:none;
+  color: black;
+  font-family: 'Lato', sans-serif;
+  font-size: .7rem;
+  font-style: normal;
+  text-align:center;
+}
+
+
+#ms_name {
+  height: 60px;
+  width: 100px;
+  display: inline-block;
+}
+
+#ms_name p {
+  margin-top: 24px;
+}
+
+#ms_name_inner {
+  display: table;
+  vertical-align: middle;
+}
+
+.ms_shoutout {
+  padding: 3rem 0 1rem;
+}
+
+.ms_shoutout p {
+  color: black;
+  font-family: 'Raleway', sans-serif;
+  font-size: 2.5rem;
+  max-width: 600px;
+  font-weight: 100;
+  text-align: center;
+  margin: auto;
+}
+
+#ms_main_gallery {
+  max-width: 900px;
+  margin: auto;
+}
+
+.ms_main_gallery_inner {
+  display: table-row;
+  width: 100%;
+  margin: auto;
+}
+
+.ms_main_gallery_individual_container {
+  width: 31.33%;
+  margin: 1% 1%;
+  display: inline-block;
+}
+
+.ms_main_gallery_individual_container img {
+  width: 100%;
+}
+
+
+footer {
+  font-family: "Lato", sans-serif;
+  font-size: .5rem;
+  text-align: center;
+  padding: 4px;
+}
+
+@media(max-width:699px) {
+  .ms_shoutout {
+    transition: all ease-in .2s;
+    padding: 2rem 0 0;
+  }
+
+  .ms_shoutout p {
+    transition: all ease-in .2s;
+    font-size: 2rem;
+  }
+
+  .ms_main_gallery_individual_container {
+    width: 48%;
+    margin: 1% 1%;
+    display: inline-block;
+  }
+}
+
+
+@media(max-width: 520px) {
+  .ms_shoutout {
+    transition: all ease-in .2s;
+    padding: 1rem 0 0;
+  }
+
+  .ms_shoutout p {
+    transition: all ease-in .2s;
+    font-size: 1.5rem;
+  }
+}
+
+@media(max-width: 439px) {
+  .ms_main_gallery_individual_container {
+    width: 100%;
+    margin: 5px auto;
+    display:block;
+  }
+
+  .ms_shoutout {
+    transition: all ease-in .2s;
+    padding: 1rem 0 0;
+  }
+
+  .ms_shoutout p {
+    transition: all ease-in .2s;
+    font-size: 1rem;
+  }
+}
